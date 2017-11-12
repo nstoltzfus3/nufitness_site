@@ -50,7 +50,8 @@ body {
 }
 
 #tabtitle {
-	display: inline-block
+	display: inline-block;
+	font-size: 30;
 }
 
 .tablinks {
@@ -102,12 +103,48 @@ body {
 
 left_side {
     float: left;
-    max-width: 160px;
+    width: 15%;
     margin: 0;
     padding: 1em;
+	text-align: center
+}
+
+middle_side {
+	margin-left: 50px;
+	max-width: 100px;
+	margin: 0;
+	padding: 1em;
 }
 right_side {
-    margin-left: 170px;
+    margin-left: 60px;
     padding: 1em;
-    overflow: hidden;
+	overflow: hidden;
+}
+.column {
+	float: left;
+}
+
+.second_column_element {
+	height: 78px; 
+	margin: 26px 10px 0px 0px;
+	padding: none;
+}
+
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.left, .middle{
+	width: 25%;
+	float: left
+} 
+.right {
+	width: 50%;
+	float: left
+}
+
+.clear {
+  clear:both;
 }
