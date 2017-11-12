@@ -99,3 +99,15 @@ body {
 	text-align: center;
 	margin: auto;
 }
+
+left_side {
+    float: left;
+    max-width: 160px;
+    margin: 0;
+    padding: 1em;
+}
+right_side {
+    margin-left: 170px;
+    padding: 1em;
+    overflow: hidden;
+}
