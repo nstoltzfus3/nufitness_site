@@ -7,37 +7,50 @@
         <script src="main_page.javascript"></script>
     
 
-    <form position="relative">
-        <header_info  style="font-family:sans-serif; padding: 10px; margin-right: 10px; font-size: 10px" for="address">
-            6399 Jimmy Carter Blvd
-            <br>
-            Siute 100C Norcross GA 30071
-        </header_info>
-        <header_info float="center" style="font-family:sans-serif; padding: 10px; font-size: 10px" for="address">
-            Email: nufitness12@gmail.com
-            <br>
-            407-491-7231
-        </header_info>
-        <header_info float="right" style="font-family:sans-serif; padding: 10px; font-size: 10px" for="address">
-            Email: nufitness12@gmail.com
-            <br>
-            407-491-7231
-        </header_info>
-    </form>
+
+    <div class="tab">
+        <div id="thumbs" class="tab" style="background-color: #202020;">
+            <div class="header_info"  >
+                6399 Jimmy Carter Blvd
+            </div>
+			<div class="header_info" >
+                Email: nufitness12@gmail.com
+            </div>
+            <div class="header_info"  >
+				<div style="color: orange">ENGLISH</div> / <div>简体</div> / <div>繁體</div>
+            </div>
+            <span class="stretch"></span>
+
+            
+        </div>
+		<div id="thumbs" style="background-color: #202020; margin: 0px 0px 0px 0px">
+            <div class="header_info" >
+                Suite 100C Norcross GA 30071
+            </div>
+            <div class="header_info" >
+                407-491-7231
+            </div>
+            <div class="header_info" >
+                MEMBER: LOGIN / <div style="color: orange">LOGOUT</div>
+            </div>
+            <span class="stretch"></span>
+        </div>
 
     
-    <form>
-        <div class="tab">
+        <div id="tabtitle" class="tab">
+			<img class="tablinks" src="nufitness_symbol.png" alt="nufitness_icon" style="height: 34px; float:left">
             <button class="tablinks" onclick="openCity(event, 'Home')">Home</button>
             <button class="tablinks" onclick="openCity(event, 'About')">About</button>
             <button class="tablinks" onclick="openCity(event, 'Training')">Training</button>
             <button class="tablinks" onclick="openCity(event, 'Our Team')">Our Team</button>
             <button class="tablinks" onclick="openCity(event, 'Gallery')">Gallery</button>
             <button class="tablinks" onclick="openCity(event, 'Contacts')">Contacts</button>
-        </div>
-    </form>
+        </div>        
+    </div>
+    
     <div id="Home" class="tabcontent">
-      <h3>Home</h3>
+      <h3>London</h3>
+        
             <iframe width="420" height="315"
                     src="https://www.youtube.com/embed/dQw4w9WgXcQ">
             </iframe>
